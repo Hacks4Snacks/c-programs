@@ -1,2 +1,2 @@
-# simpleCScripts
-A collection of simple scripts written in C.
+# simpleCPrograms
+A collection of simple programs written in C.
