@@ -7,6 +7,6 @@ A collection of simple programs written in C.
 2. [echoserver](programs/echoserver.c): simple c echoserver
 
 
-# File Handling
+## File Handling
 
 1. [linecount](programs/linecount.c): simple c program to count the lines in a file
