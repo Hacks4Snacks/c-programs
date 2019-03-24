@@ -31,7 +31,7 @@ int main() {
 	//Extract characters from file and store in character c
 	for (c = getc(file); c != EOF; c = getc(file))
 		if (c == '\n') {
-			count = count + 1;
+			count++;
 		} //Increment count if character is new line
 
 	//Close the file
