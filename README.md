@@ -1,5 +1,5 @@
-# simpleCPrograms
-A collection of simple programs written in C.
+# C Programs
+A collection of C programs that are either not meaningful or complex enough to warrant an independent repository.
 
 ## Socket Programming
 
