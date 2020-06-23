@@ -50,13 +50,13 @@ int main(int argc, char **argv)
             portno = atoi(optarg);
             break;
         default:
-            fprintf(stderr, "%s", USAGE);
+            fprintf(stderr, "%s\n", USAGE);
             exit(1);
         case 'm': // message
             message = optarg;
             break;
         case 'h': // help
-            fprintf(stdout, "%s", USAGE);
+            fprintf(stdout, "%s\n", USAGE);
             exit(0);
             break;
         }
@@ -120,7 +120,7 @@ int main(int argc, char **argv)
 		    maxlen -= conn;
 		    len += conn;
                     buffer[len] = '\0';
-		    printf("%s", buffer);
+		    printf("%s\n", buffer);
     }
 
     close(socketN);
